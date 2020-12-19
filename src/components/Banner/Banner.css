@@ -1,0 +1,47 @@
+.banner-pic{
+    width: 230px;
+    height: 250px;
+    border-radius: 50%;
+    filter: brightness(1.1);
+}
+.banner-bg{
+  background-image: url(../../assets/banner2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.fa {
+    padding: 7px;
+    font-size: 15px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 7px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+      color :rgb(23, 173, 223);
+      text-decoration: none;
+  }
+.fa-facebook {
+    background: transparent;
+    color: white;
+  }
+  
+  .fa-instagram {   
+    background: transparent;
+    color: white;
+  }
+  .fa-twitter {
+    
+    background: transparent;
+    color: white;
+  }
+  .fa-github {
+    background: transparent;
+    color: white;
+  }
+  .fa-gitlab {   
+    background: transparent;
+    color: white;
+  }

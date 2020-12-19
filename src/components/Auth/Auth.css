@@ -1,0 +1,12 @@
+.bg-login-image{
+    background-image: url(../../assets/Login.svg);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+.em-form{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-left: 10px;
+}

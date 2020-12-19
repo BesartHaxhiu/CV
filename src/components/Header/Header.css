@@ -1,0 +1,33 @@
+.header {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    z-index: 1;
+    background-color: aqua;
+}
+.font{
+    font-family: 'Piazzolla', serif;
+}
+.fontB{
+  font-family: 'Sansita Swashed', cursive;
+}
+.header-bg{
+  background-color: #212529;
+}
+.header-menu{
+  color:white;
+
+}
+.header-menu:hover{
+  color:darkgray;
+  text-decoration: none;
+}
+#sign-out-icon{
+  font-size: 17px;
+  padding: 0;
+  margin: 0;
+  color: wheat;
+}
+#sign-out-icon:hover{
+  cursor: pointer;
+}

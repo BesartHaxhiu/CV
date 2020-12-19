@@ -1,0 +1,45 @@
+.admin-nav {
+    height: 100vh;
+    width: 250px;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    float:left;
+    background-color: #212529;
+    background-size: cover;
+  }
+  
+  .admin-nav a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  
+  .admin-nav a:hover {
+    color: #f1f1f1;
+  }
+
+  .nav-text{
+    font-size:20px;
+  }
+
+  .hi{
+    padding-left: 10%;
+    padding-top: 8%;
+  }
+  @media (max-width: 640px) {
+    .admin-nav{
+      width:10%;
+      height: 100%;
+        }
+      .admin-nav .nav-text{
+        display: none;
+      }
+      .hi{
+        display: none
+      }
+      .hr-admin-name{
+        display: none;
+      }
+    }
